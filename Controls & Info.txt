@@ -1,0 +1,18 @@
+Space Zero version 0.8.5
+
+W - move forward
+S - Slow down/Stop
+A - rotate left
+D - rotate right
+
+Left Shift + W - Boost foward at higher speed (uses fuel)
+
+Left Click - Shoot
+Right Click - Hold to lock onto enemies and release to shoot missiles at enemies locked on
+
+ESC - Quit the game
+
+Move the cursor around to look around and change direction.
+Fuel replenishes automatically while you don't use it
+Arrows at the edge of the screen will guide you towards enemies to destroy
+Destroy all enemies in a wave and proceed to the next one

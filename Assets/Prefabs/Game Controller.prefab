@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1543285872452636}
+  m_IsPrefabParent: 1
+--- !u!1 &1543285872452636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4581256920936124}
+  - component: {fileID: 114636171009988940}
+  - component: {fileID: 114652278078969340}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4581256920936124
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1543285872452636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114636171009988940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1543285872452636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d8643153375f84b9ecaa8e27900bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  Charger: {fileID: 1239159540460966, guid: 01be3a770432c834d904dd3f1f330500, type: 2}
+  Shooter: {fileID: 1342881938026128, guid: 87e59bd3d6b5bb947b1f2e8143067079, type: 2}
+  objective: {fileID: 0}
+  wavetxt: {fileID: 0}
+  Arrow: {fileID: 114886434242186774, guid: 8f32ac02f0d6444419a13bdd31978a8a, type: 2}
+  hud: {fileID: 0}
+  pause: {fileID: 0}
+--- !u!114 &114652278078969340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1543285872452636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff62cba550f96746b9509c57ac27c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointA: {fileID: 0}
+  PointB: {fileID: 0}
+  PointC: {fileID: 0}
+  PointD: {fileID: 0}
+  PointE: {fileID: 0}
+  PointF: {fileID: 0}
+  debris: {fileID: 1656738567921686, guid: 62923c5ba6e9c8847b71dae208231f60, type: 2}
+  health: {fileID: 1322230446457126, guid: f16afa305b9ad514b8d2a5e1e7741ef9, type: 2}
+  Front: {fileID: 0}
+  Back: {fileID: 0}
+  Left: {fileID: 0}
+  Right: {fileID: 0}
+  Top: {fileID: 0}
+  Bottom: {fileID: 0}
+  PlanetA: {fileID: 1384736197840580, guid: 4b3cdc5f9b86ca847ba7762dd16fabdd, type: 2}
+  PlanetB: {fileID: 1748084945444934, guid: 0981169b845cae84786c9c4064a963ec, type: 2}
+  PlanetC: {fileID: 1905691669241998, guid: e2b54bbeca4868247af6ced9982844bf, type: 2}
+  PlanetD: {fileID: 1337204002734226, guid: e140f35fcfccdb444b1e9609d8523260, type: 2}
+  PlanetE: {fileID: 1382133501436442, guid: 9d6dcccf7b3c8df4d994890915a989dc, type: 2}

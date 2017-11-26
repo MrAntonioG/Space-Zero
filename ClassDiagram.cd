@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AI" Collapsed="true">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAIAAAAEAAAABAAgBAEGAAQAIAAAAKAAAAIIAI=</HashCode>
+      <FileName>Assets\Script\Abstract\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletMovement" Collapsed="true">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAACAAEAAgAFAAAAAAAAAAAAEAAAABAgAAAhAAAI=</HashCode>
+      <FileName>Assets\Script\Abstract\BulletMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroid" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAACAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Script\Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharController" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAQAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\CharController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharStats" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACAAAAAEAAAABAAIAAAAAABACAAAAAggAQAAAAAg=</HashCode>
+      <FileName>Assets\Script\Abstract\CharStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collectable" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stat" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAABABBAAAAAAAAAAAAAAAACAAAAggAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQIAACACAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChargerAI" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\ChargerAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyController" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="CharController" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.191" />
+        <Point X="4.5" Y="2.45" />
+        <Point X="3.75" Y="2.45" />
+        <Point X="3.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQQAACAAKAAgAAAAAIAAAAAAAAAAAAAAAAAAQgAgAA=</HashCode>
+      <FileName>Assets\Script\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAACIAAAIAAAAAAAAAAAEAAAQAAABAAQABAAg=</HashCode>
+      <FileName>Assets\Script\GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACIAiAImAAIABIAgAAEGAGgAIiAQAKAAIgIMIA=</HashCode>
+      <FileName>Assets\Script\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerWeapon" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQAAAAAAAAAAAAAAAAAAAAARAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStats" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerProjectile" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStats" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\EnemyStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShooterAI" Collapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\ShooterAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthDrop" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\HealthDrop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

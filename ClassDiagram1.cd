@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AI">
+    <Position X="34" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAIAAAAEAAAABAAgBAEGAAQAIAAAAKAAAAIIAI=</HashCode>
+      <FileName>Assets\Script\Abstract\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletMovement">
+    <Position X="20.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAACAAEAAgAFAAAAAAAAAAAAEAAAABAgAAAhAAAI=</HashCode>
+      <FileName>Assets\Script\Abstract\BulletMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharController">
+    <Position X="30.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAQAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\CharController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharStats">
+    <Position X="33" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACAAAAAEAAAABAAIAAAAAABACAAAAAggAQAAAAAg=</HashCode>
+      <FileName>Assets\Script\Abstract\CharStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collectable">
+    <Position X="18" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\Collectable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stat">
+    <Position X="30.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAAAABABBAAAAAAAAAAAAAAAACAAAAggAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon">
+    <Position X="26" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQIAACACAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Abstract\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrowTracking">
+    <Position X="15.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABgAAACAAAAAAAAAAAAIAIAAAAAAAAAgAAAAIAII=</HashCode>
+      <FileName>Assets\Script\ArrowTracking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Asteroid">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAACAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Script\Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChargerAI">
+    <Position X="34.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\ChargerAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyController">
+    <Position X="31.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQQAACAAKAAgAgAAAIIAAAAAAAAAAAAAAAAAQgAgAA=</HashCode>
+      <FileName>Assets\Script\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyProjectile">
+    <Position X="22.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\EnemyProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStats">
+    <Position X="31.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\EnemyStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyWeapon">
+    <Position X="27" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAQAAAAAAAAAAAQACAAAAAACRAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\EnemyWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIgAkgACAAAAqABQEAACAAACECAAABAAhCAAABIAg=</HashCode>
+      <FileName>Assets\Script\GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthDrop">
+    <Position X="18" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Collectable" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="18.75" Y="4.434" />
+        <Point X="18.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\HealthDrop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelGenerator">
+    <Position X="27.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAEQAAACAAgAAAAAAQAAAAAABoHAAACQCACAAgACg=</HashCode>
+      <FileName>Assets\Script\LevelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockOn">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Script\LockOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuController">
+    <Position X="22.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAABCAAAAABwAgLAAgQAACEAAAAwACCiEAgAAA=</HashCode>
+      <FileName>Assets\Script\MainMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseController">
+    <Position X="26" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAABAACAQABAEgAgiAIAAAAAEAAAEAAAgAEAAIAQ=</HashCode>
+      <FileName>Assets\Script\PauseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="29" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACIAqAImAAKABIIgAAEGAGgAIiAQAKAAIgIMIA=</HashCode>
+      <FileName>Assets\Script\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerProjectile">
+    <Position X="18" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerRocket">
+    <Position X="20.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerRocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStats">
+    <Position X="34" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Script\PlayerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerWeapon">
+    <Position X="24.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQBAgBACAQAQAAAABAABAAgCCAAAAAARAAAAAAgAA=</HashCode>
+      <FileName>Assets\Script\PlayerWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShooterAI">
+    <Position X="33" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAACAAAAAAAAAAAAAADCAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\ShooterAI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
